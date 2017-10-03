@@ -1,5 +1,7 @@
-Livecodelab
-========
+<p align="center">
+  <img src="https://raw.githubusercontent.com/davidedc/Livecodelab-website/gh-pages/images/headerLogoAndTitle.png" width="40%" height="40%">
+</p>
+
 
 #### Online toy live coding environment ####
 
@@ -7,57 +9,62 @@ Livecodelab is a special secret place where you can make fancy "on-the-fly" 3d v
 
 "On-the-fly" meaning: as you type. Type just three letters: "box", and boom! a box appears. No clicking play, no waiting, no nothing.
 
-LiveCodeLab is totally client side. Once loaded in your browser it works without any internet connection. You can even downloads the files and use it locally.
-
-Play! http://sketchpatch.net/livecodelab/index.html
-
-French version : http://sketchpatch.net/livecodelab/indexFR.html
-
+Play! http://livecodelab.net/play/
 
 #### Live coding in the browser ####
 
-LiveCodeLab has been used by many people. They usually use it to explore:
+LiveCodeLab has been used by several groups/people for:
 
-*Code Education*
-It's a great way to interest kids and adult in code, as it allows for instant feedback and easy pair programming. It helps introduce simple concept like loops, and much more complex like transform matrices!
+*Education*:
+it's a great way to get kids and adults interested in code, as it allows for instant feedback and easy pair programming. It helps introduce simple concept like loops, and much more complex like transform matrices!
 
-*Future of the browser*
-it's a nice hint about what 3D + the web is really about.
-Also, the use of several powerful and mature libraries shows how far Javascript is now.
+*Showcasing modern browser features*:
+it's a nice showcase of what browsers can do with the latest 3D and javascript implementations.
 
-*Code as Art*
-It's a live coding tool that artists can use, misuse and tweak. Go fullscreen, hide the code and you can make incredible screen recordings with just a few lines of code.
+*Creative coding*:
+it's a live coding tool that artists can use, misuse and tweak. Go fullscreen, hide the code and you can make incredible screen recordings with just a few lines of code!
 
-*Autocode*
-Automatic coding in the browser is still quite a virgin territory. It's been done a lot with lisp-y languages, but not quite in the context of things like LiveCodeLab, so there is an opportunity to do quite some original work there.
+*Auto-coding*:
+automatic coding in the browser is still quite a virgin territory. It's been done a lot with lisp-y languages, but not quite in the context of things like LiveCodeLab, so there is an opportunity to do quite some original work there.
 
 
 ### Roadmap ###
 
-We need your input on the following goals:
+Roadmap? Where we are going there are no roadmaps.
+If you insist, here is what's currently in our mind:
 
-* Modularize the code, using requireJS to load everything
+* Make the code nicer (always the case, isn't it?)
 
-* Proper handling of localizations
+* Ways to share programs with others.
 
-* More localizations: spanish, chinese, japanese, arab, german, etc.
-
-* A way to share the user's LiveCodeLab code with others – and with keeping the client-side, self-contain-ness (passing code in URI?)
-
-For a more fine grained look at feature requests and bugs, take a look at <a href="https://github.com/davidedc/livecodelab/issues">the tracker</a>.
+For a more fine-grained look at ideas and bugs, take a look at <a href="https://github.com/davidedc/livecodelab/issues">the tracker</a>.
 
 
 #### Libraries used ###
 
-Three.js by Ricardo Cabello aka Mr.doob.
-Coffeescript by Jeremy Ashkenas.
-Buzz.js by Jay Salvat.
-Processing.js library by J. Resig.
-Code Mirror by Marijn Haverbeke.
-Scrollwheel handler by Brandon Aaron.
+ * Three.js by Ricardo Cabello aka Mr.doob.
+ * Coffeescript by Jeremy Ashkenas.
+ * LowLag.js by kirkjerk
+ * Processing.js library by J. Resig.
+ * Code Mirror by Marijn Haverbeke.
+ * Scrollwheel handler by Brandon Aaron.
+ * McLexer by Matthew Might.
 
-#### Examples ####
+#### Main contributors ###
 
+ * Davide Della Casa. Made the first version.
+ * Guy John aka @rumblesan. Massive, massive contributions: refactored the code big times, set-up a proper build system, undoes the entropy done by others, working on new parser.
+ * Thomas van den Berg aka noio: support for midi input, refactoring of event system, tweaking of several bpm-related functions.
+ * Matthew Lawrence: replaced the old "plasters and regexes" autocoder hack with a much more proper lexer-based solution.
+ * Julien Dorra: contributed to french version, refactoring and great UX/UI feedback.
+
+#### Documentation ####
+Please check the docs-overview file in the docs directory for an
+overview of the available documentation.
+ 
+#### Glamour shots ####
+
+<img src="http://www.sketchpatch.net/labs/screenshots/thumbnails/LiveCodeLab-BannerForGithub.png" width="800" height="236">
 <img src="http://www.sketchpatch.net/labs/screenshots/thumbnails/Thumb35.png" width="200" height="115">
 <img src="http://www.sketchpatch.net/labs/screenshots/thumbnails/Thumb34.png" width="200" height="115">
 <img src="http://www.sketchpatch.net/labs/screenshots/thumbnails/Thumb33.png" width="200" height="115">
@@ -93,4 +100,3 @@ Scrollwheel handler by Brandon Aaron.
 <img src="http://www.sketchpatch.net/labs/screenshots/thumbnails/Thumb3.png" width="200" height="115">
 <img src="http://www.sketchpatch.net/labs/screenshots/thumbnails/Thumb2.png" width="200" height="115">
 <img src="http://www.sketchpatch.net/labs/screenshots/thumbnails/Thumb1.png" width="200" height="115">
-

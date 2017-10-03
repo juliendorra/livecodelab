@@ -1,0 +1,50 @@
+{
+  "name": "livecodelab",
+  "version": "0.1.0",
+  "description": "A live coding environment for the browser",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/davidedc/livecodelab/issues"
+  },
+  "repository": "davidedc/livecodelab",
+  "scripts": {
+    "build": "webpack -p",
+    "devbuild": "webpack -d",
+    "serve": "webpack-dev-server -d --content-base dist/ --inline --host 0.0.0.0",
+    "docs": "docco docs/**/*.md -o dist/docs",
+    "docs:src": "docco src/coffee/**/*.coffee -o dist/docs/src",
+    "test": "mocha-webpack --webpack-config webpack.config.js \"tests/**/*.js\"",
+    "testone": "mocha-webpack --webpack-config webpack.config.js",
+    "prettier": "prettier --single-quote",
+    "servewiki": "tiddlywiki docs/wiki --server",
+    "buildwiki": "tiddlywiki docs/wiki --output ./dist/wiki --build index"
+  },
+  "devDependencies": {
+    "babel-core": "^6.25.0",
+    "babel-eslint": "^7.2.3",
+    "babel-loader": "^7.1.1",
+    "babel-polyfill": "^6.23.0",
+    "babel-preset-env": "^1.6.0",
+    "coffee-loader": "^0.7.2",
+    "coffee-script": "^1.11.1",
+    "css-loader": "^0.28.4",
+    "dentist": "1.0.3",
+    "docco": "^0.7.0",
+    "eslint": "^4.3.0",
+    "eslint-config-prettier": "^2.3.0",
+    "eslint-plugin-prettier": "^2.1.2",
+    "file-loader": "^0.11.2",
+    "loglevel": "^1.4.1",
+    "mocha": "^3.1.2",
+    "mocha-webpack": "^0.7.0",
+    "pegjs": "^0.10.0",
+    "pegjs-loader": "^0.5.1",
+    "prettier": "^1.5.3",
+    "style-loader": "^0.18.2",
+    "tiddlywiki": "^5.1.14",
+    "underscore": "^1.8.3",
+    "url-loader": "^0.5.7",
+    "webpack": "^2.7.0",
+    "webpack-dev-server": "^2.5.1"
+  }
+}
